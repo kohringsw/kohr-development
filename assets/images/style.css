@@ -25,6 +25,7 @@ header {
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
+    top:0;
     z-index: 9999;
     border-bottom: solid 10px var(--second-color);
 }
@@ -51,7 +52,7 @@ header a {
 }
 
 header nav {
-    margin: 20px 0;
+    margin: 20px 20px;
 }
 
 header nav ul {
@@ -63,8 +64,8 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 0 20px;
-    font-size: 2vw;
+    padding: 0 30px;
+    font-size: 22px;
     color: white;
     font-weight: bold;
 }
@@ -74,7 +75,7 @@ header nav ul li a {
     background-image: url("../images/kohr-development-hero.jpg");
     height: 450px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,12 +88,12 @@ header nav ul li a {
     margin: 150px 350px 0 0;
 }
 
-.hero-subtitle h3 {
+.hero-subtitle h2 {
     font-size: 36px;
     color: var(--first-color);
 }
 
-.hero-subtitle h2 {
+.hero-subtitle h3 {
     font-style: italic;
     font-size: 24px;
     color: var(--first-color);
@@ -103,8 +104,6 @@ header nav ul li a {
    
     header {
         padding-bottom: 30px;
-        justify-content: flex-start;
-        position: relative;
     }
 
     header nav {
@@ -113,8 +112,7 @@ header nav ul li a {
 
     header nav ul li a {
         margin: 0;
-        font-size: 18px;
-    }
+        }
 }
 
 /* MEDIA QUERY FOR 768PX SCREENS AND SMALLER */
@@ -128,6 +126,10 @@ header nav ul li a {
         border-top-right-radius: 25px;
         border-bottom-right-radius: 25px;
     } 
+
+    .hero-subtitle {
+        margin: 150px 200px 0 0;
+    }
 }
 
 /* MEDIA QUERY FOR 575PX SCREENS AND SMALLER */
@@ -152,6 +154,7 @@ header nav ul li a {
 
     header nav ul li a {
         margin: 0;
+        padding: 15px;
         font-size: 14px;
     }
 
@@ -163,5 +166,23 @@ header nav ul li a {
         border-top-right-radius: 25px;
         border-bottom-right-radius: 25px;
     } 
+
+    .hero {
+        height: 250px;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .hero-subtitle {
+        margin: 75px 125px 0 0;
+    }
+
+    .hero-subtitle h2 {
+        font-size: 22px;
+    }
+    
+    .hero-subtitle h3 {
+        font-size: 16px;
+    }
 }
   
