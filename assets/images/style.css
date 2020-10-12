@@ -34,21 +34,20 @@ header h1 {
     font-weight: bold;
     font-size: 32px; 
     margin: 15px 0 15px 45px;
-    text-shadow: 0 0 5px rgba(0, 0, 0, .3);
 }
 
 .header-box {
     content: "";
     height: 100%;
     width: 425px;
-    background-color: var(--third-color);
+    background-color: var(--fourth-color);
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 
 header a {
     text-decoration: none;
-    color: white;
+    color: var(--first-color);
 }
 
 header nav {
@@ -90,6 +89,7 @@ header nav ul li a {
 
 .hero-subtitle h2 {
     font-size: 36px;
+    font-weight: lighter;
     color: var(--first-color);
 }
 
