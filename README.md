@@ -17,7 +17,7 @@
 
 ### This Application (and his other work) is powered by:
 * HTML
-* CSS (Bootstrap)
+* CSS (Bootstrap and Tailwind)
 * JavaScript (jQuery, jQueryUI, Moment.js)
 
 ### See deployed application:
