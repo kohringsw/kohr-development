@@ -24,6 +24,7 @@ body {
 header {
     padding: 30px 0 30px 0;
     background-color: var(--first-color);
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -104,17 +105,17 @@ header nav ul li a {
     display: flex;
 }
   
-.about-me h3, .my-work h3 {
+.about-me h3 {
     height: 100px;
     width: 100px;
     font-size: 28px;
     text-align: right;
-    margin: 35px 12px 0 50px;
+    margin: 60px 12px 0 50px;
 }
   
 .about-me p { 
     flex-grow: 1;
-    margin: 35px 100px 20px 10px;
+    margin: 60px 100px 20px 10px;
     padding: 0 0 0 50px;
     font-size: 18px;
     line-height: 1.5;
@@ -123,7 +124,10 @@ header nav ul li a {
 
 .my-work h3 {
     margin: 40px 12px 0 50px;
+    font-size: 28px;
+    text-align: right;
     width: 100px;
+    height: 100px;
 }
 
 .container {
@@ -142,6 +146,10 @@ header nav ul li a {
     font-weight: normal;
     font-size: 14px;
 }
+
+.contacts {
+    background-color: var(--first-color);
+}
   
 .references div { 
     font-size: 14px;
@@ -154,7 +162,17 @@ header nav ul li a {
 
 /* MEDIA QUERY FOR 980PX SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-   
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     header {
         padding-bottom: 30px;
     }
@@ -180,6 +198,16 @@ header nav ul li a {
 
 /* MEDIA QUERY FOR 768PX SCREENS AND SMALLER */
 @media screen and (max-width: 768PX) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
 
     .header-box {
         content: "";
@@ -222,7 +250,6 @@ header nav ul li a {
     }
 
     .button {
-        background-color: var(--second-color);
         font-weight: normal;
         font-size: 8px;
     }
@@ -323,7 +350,6 @@ header nav ul li a {
     }
 
     .button {
-        background-color: var(--second-color);
         font-weight: normal;
         font-size: 6px;
     }
