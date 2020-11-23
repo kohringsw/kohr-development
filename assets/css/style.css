@@ -27,8 +27,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    
     border-bottom: solid 10px var(--second-color);
 }
 
@@ -119,7 +117,7 @@ header nav ul li a {
 .about-me p { 
     flex-grow: 1;
     margin: 35px 30px 20px 10px;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 50px;
     font-size: 18px;
     line-height: 1.5;
     border-left: 3px solid var(--first-color);
@@ -137,7 +135,7 @@ header nav ul li a {
     
 }
 
-.hike-now-repo {
+.button {
     background-color: var(--second-color);
     font-weight: normal;
     font-size: 14px;
