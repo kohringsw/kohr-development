@@ -40,7 +40,7 @@ header h1 {
     content: "";
     height: 100%;
     width: 425px;
-    background-color: var(--fourth-color);
+    background-color: white;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
