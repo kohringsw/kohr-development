@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kohr Development</title>
-    <link rel="stylesheet" href="assets/images/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <!-- navigation -->
@@ -42,7 +46,7 @@
      <!-- About Me -->
      <section id="about-me" class="about-me">
         <div class="section-title">
-            <h2>About Me</h2>
+            <h3>About Me</h3>
         </div>
 
         <div class="bio">
@@ -56,61 +60,83 @@
             Shelby is a start up web developer, learning all the different languages of coding in hopes to become a full stack developer. He aspires to use this skill to work on projects for companies and organizations that love and care about people. He would like to be able to teach these skills to men and women in different parts of the world to help break multi-generational cycles of poverty.            
             </p>
         </div>
-
     </section>
 
      <!-- My Work -->
-     <section id="my-work" class="my-work">
+     <section id="my-work" class="my-work row col-md-12 align-">
         <div class="section-title">
-            <h2>My Work</h2>
+            <h3>My Work</h3>
         </div>
-
-        <div class="grid-wrapper">
-            <div class="grid-wrapper-container">
-                <a href="https://kohringsw.github.io/run-buddy/" class="one">Run-Buddy</br>HTML, CSS</a> 
-                <a href="https://kohringsw.github.io/horiseon/" class="two">Horiseon</br>HTLM, CSS refactoring</a>
-                <a href="https://kohringsw.github.io/kohr-development/" class="three">Kohr Development</br>HTML, CSS</a>
-                <div class="four">Coming Soon</br>JavaScript</div>
-                <div class="five">Coming Soon</br>JavaScript</div>
-                <div class="six"></div>
+        <div class="container row col-md-9">
+            <div class="hike-now col-md-12 row mb-5">
+                <a href="https://kohringsw.github.io/hike-now/" target="_blank">
+                    <img class="w-100" src="./assets/images/hike-now.png" alt="A screen shot of the landing page for the Hike Now application">
+                  </a>
+                  <div class="row col">
+                      <a class="hike-now-repo text-decoration-none text-light p-2 badge mt-4 mr-2 col-5" href="https://kohringsw.github.io/hike-now/" target="_blank">Visit the deployed application</a>
+                      <a class="hike-now-repo text-decoration-none text-light p-2 badge mt-4 ml-2 col-5" href="https://github.com/kohringsw/hike-now.git" target="_blank">Visit the repository on GitHub</a>
+                </div>
+            </div>
+            <div class="weather-dash col-md-12 row mb-5">
+                <a href="https://kohringsw.github.io/weather-dashboard/" target="_blank">
+                    <img class="w-100" src="./assets/images/weather-dashboard.png" alt="A screen shot of the landing page for the Weather Dashboard application">
+                  </a>
+                  <div class="row col">
+                      <a class="hike-now-repo text-decoration-none text-light p-2 badge mt-4 mr-2 col-5" href="https://kohringsw.github.io/weather-dashboard/" target="_blank">Visit the deployed application</a>
+                      <a class="hike-now-repo text-decoration-none text-light p-2 badge mt-4 ml-2 col-5" href="https://github.com/kohringsw/weather-dashboard.git" target="_blank">Visit the repository on GitHub</a>
+                </div>
+            </div>
+            <div class="simply-plan col-md-12 row mb-5">
+                <a href="https://kohringsw.github.io/simply-plan-it/" target="_blank">
+                    <img class="w-100" src="./assets/images/simply-plan-it.png" alt="A screen shot of the landing page for the Weather Dashboard application">
+                  </a>
+                  <div class="row col">
+                      <a class="hike-now-repo text-decoration-none text-light p-2 badge mt-4 mr-2 col-5" href="https://kohringsw.github.io/simply-plan-it/" target="_blank">Visit the deployed application</a>
+                      <a class="hike-now-repo text-decoration-none text-light p-2 badge mt-4 ml-2 col-5" href="https://github.com/kohringsw/simply-plan-it.git" target="_blank">Visit the repository on GitHub</a>
+                </div>
+            </div>
+            <div class="password col-md-12 row">
+                <a href="https://kohringsw.github.io/password-generator/" target="_blank">
+                    <img class="w-100" src="./assets/images/password-generator.png" alt="A screen shot of the landing page for the Weather Dashboard application">
+                  </a>
+                  <div class="row col">
+                      <a class="hike-now-repo text-decoration-none text-light p-2 badge mt-4 mr-2 col-5" href="https://kohringsw.github.io/password-generator/" target="_blank">Visit the deployed application</a>
+                      <a class="hike-now-repo text-decoration-none text-light p-2 badge mt-4 ml-2 col-5" href="https://github.com/kohringsw/password-generator.git" target="_blank">Visit the repository on GitHub</a>
+                </div>
             </div>
         </div>
-
-    </section>
+     </section>
 
      <!-- Contact -->
-     <section id="contact" class="contacts">
-        <div>
-            <h2>Contact</h2>
-        </div>
-            <div class="references">
+     <section id="contact" class="contacts bg-dark">
+            <div class="references m-3 p-2 row col-md-12 justify-content-around align-content-center text-light">
               <div>
                 <p>
-                    <a href="tel:+1-615-426-6948">Call Shelby</a>
+                    <a class="text-decoration-none text-light font-weight-lighter" href="tel:+1-615-426-6948" target="_blank">Call Shelby</a>
                 </p>
               </div>  
 
               <div>
                 <p>
-                    <a href="mailto:kohringsw@gmail.com">Email Shelby</a> 
+                    <a class="text-decoration-none text-light font-weight-lighter" href="mailto:kohringsw@gmail.com" target="_blank">Email Shelby</a> 
                 </p>
               </div>
                
               <div>
                 <p>
-                    <a href="https://github.com/kohringsw">GitHub</a>
+                    <a class="text-decoration-none text-light font-weight-lighter" href="https://github.com/kohringsw" target="_blank">GitHub</a>
                 </p>
               </div>
 
               <div>
                 <p>
-                    <a href="https://twitter.com/shelbykohring">Twitter: @shelbykohring</a>
+                    <a class="text-decoration-none text-light font-weight-lighter" href="https://twitter.com/shelbykohring" target="_blank">Twitter: @shelbykohring</a>
                 </p>
               </div>
 
               <div>
                 <p>
-                    <a href="https://www.instagram.com/shelbykohring/">Instagram: @shelbykohring</a>
+                    <a class="text-decoration-none text-light font-weight-lighter" href="https://www.instagram.com/shelbykohring/" target="_blank">Instagram: @shelbykohring</a>
                
                 </p>
               </div> 
