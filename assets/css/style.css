@@ -39,7 +39,7 @@ header h1 {
 .header-box {
     content: "";
     height: 100%;
-    width: 425px;
+    width: 435px;
     background-color: white;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -111,8 +111,6 @@ header nav ul li a {
     text-align: right;
     margin: 35px 12px 0 50px;
 }
-
-
   
 .about-me p { 
     flex-grow: 1;
@@ -129,6 +127,7 @@ header nav ul li a {
 }
 
 .container {
+    flex-grow: 1;
     padding: 0 0 0 20px;
     margin: 40px 10px 20px 10px;
     border-left: 3px solid var(--first-color);
@@ -140,23 +139,13 @@ header nav ul li a {
     font-weight: normal;
     font-size: 14px;
 }
-
-/* contact style start 
-.contacts {
-    display: flex;
-}
-  
-.contacts h3 {
-    height: 100px;
-    width: 100px;
-    font-size: 28px;
-    text-align: right;
-    margin: 35px 10px 0 25px;
-}*/
   
 .references div { 
     font-size: 14px;
     font-weight: bold;
+    min-height: 3rem;
+    display: flex;
+    align-items: flex-end;
 }
 
 
@@ -174,6 +163,16 @@ header nav ul li a {
     header nav ul li a {
         margin: 0;
     }
+
+    .button {
+        font-size: 10px;
+    }
+
+    .references div { 
+        font-size: 12px;
+        font-weight: bold;
+        min-height: 2rem;
+    }
 }
 
 /* MEDIA QUERY FOR 768PX SCREENS AND SMALLER */
@@ -181,9 +180,6 @@ header nav ul li a {
 
     .header-box {
         content: "";
-        height: 100%;
-        width: 90%;
-        background-color: var(--fourth-color);
         border-top-right-radius: 25px;
         border-bottom-right-radius: 25px;
     } 
@@ -196,7 +192,7 @@ header nav ul li a {
         display: block;
       }
       
-    .about-me h3 {
+    .about-me h3, .my-work h3 {
         width: 80%;
         height:20px;
         font-size: 36px;
@@ -207,18 +203,48 @@ header nav ul li a {
     .about-me p { 
         width:80%;
         margin: 30px 65px 0 50px;
-        padding: 10px 10px 0 0;
+        padding: 30px 10px 0 0;
         font-size: 14px;
         line-height: 1.5;
         border-top: 3px solid var(--first-color);
         border-left: none;
+    }
+
+    .container {
+        width: 100%;
+        margin-left: 50px;
+        padding-top: 30px;
+        border-top: 3px solid var(--first-color);
+        border-left: none;
+    }
+
+    .button {
+        background-color: var(--second-color);
+        font-weight: normal;
+        font-size: 8px;
+    }
+
+    .references div { 
+        font-size: 10px;
+        font-weight: bold;
+        min-height: 2rem;
     }
     
 }
 
 /* MEDIA QUERY FOR 575PX SCREENS AND SMALLER */
 @media screen and (max-width: 575px) {
-  
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     header {
         padding-bottom: 30px;
         justify-content: flex-start;
@@ -244,8 +270,7 @@ header nav ul li a {
     .header-box {
         content: "";
         height: 100%;
-        width: 90%;
-        background-color: var(--fourth-color);
+        width: 95%;
         border-top-right-radius: 25px;
         border-bottom-right-radius: 25px;
     } 
@@ -266,6 +291,44 @@ header nav ul li a {
     
     .hero-subtitle h3 {
         font-size: 16px;
+    }
+
+    .about-me h3 {
+        width: 80%;
+        height: 20px;
+        font-size: 36px;
+        text-align: left;
+        margin: 30px 50px 10px 50px;
+    }
+      
+    .about-me p { 
+        width:80%;
+        margin: 30px 65px 0 50px;
+        padding: 30px 10px 0 0;
+        font-size: 14px;
+        line-height: 1.5;
+        border-top: 3px solid var(--first-color);
+        border-left: none;
+    }
+
+    .container {
+        width: 100%;
+        margin-left: 50px;
+        padding: 30px 15px 0 15px;
+        border-top: 3px solid var(--first-color);
+        border-left: none;
+    }
+
+    .button {
+        background-color: var(--second-color);
+        font-weight: normal;
+        font-size: 6px;
+    }
+
+    .references div { 
+        font-size: 6px;
+        font-weight: bold;
+        min-height: 2rem;
     }
 }
   
