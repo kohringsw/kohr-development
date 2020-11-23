@@ -119,7 +119,7 @@ header nav ul li a {
     padding: 0 0 0 50px;
     font-size: 18px;
     line-height: 1.5;
-    border-left: 3px solid var(--first-color);
+    border-left: 1px solid var(--first-color);
 }
 
 .my-work h3 {
@@ -134,7 +134,7 @@ header nav ul li a {
     flex-grow: 1;
     padding: 0 0 0 20px;
     margin: 40px 10px 20px 10px;
-    border-left: 3px solid var(--first-color);
+    border-left: 1px solid var(--first-color);
 }
 
 .img {
@@ -237,7 +237,7 @@ header nav ul li a {
         padding: 30px 10px 0 0;
         font-size: 14px;
         line-height: 1.5;
-        border-top: 3px solid var(--first-color);
+        border-top: 1px solid var(--first-color);
         border-left: none;
     }
 
@@ -245,7 +245,7 @@ header nav ul li a {
         width: 100%;
         margin-left: 50px;
         padding-top: 30px;
-        border-top: 3px solid var(--first-color);
+        border-top: 1px solid var(--first-color);
         border-left: none;
     }
 
@@ -337,7 +337,7 @@ header nav ul li a {
         padding: 30px 10px 0 0;
         font-size: 14px;
         line-height: 1.5;
-        border-top: 3px solid var(--first-color);
+        border-top: 1px solid var(--first-color);
         border-left: none;
     }
 
@@ -345,7 +345,7 @@ header nav ul li a {
         width: 100%;
         margin-left: 50px;
         padding: 30px 15px 0 15px;
-        border-top: 3px solid var(--first-color);
+        border-top: 1px solid var(--first-color);
         border-left: none;
     }
 
