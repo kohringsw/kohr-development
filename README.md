@@ -5,9 +5,9 @@
 ### Learn and See the Following:
 * Learn about who Shelby is and why web development
 * See some of his development work
-* Use any of his accessible contact avenues
-  * [by phone](tel:+1-615-426-6948)
-  * [by email](mailto:kohringsw@gmail.com)]
+* Contact him through any of the following accessible avenues, including links
+  * by phone
+  * [by email](mailto:kohringsw@gmail.com)
   * [on GitHub](https://github.com/kohringsw)
   * [on Twitter](https://twitter.com/shelbykohring)
   * [on Instagram](https://www.instagram.com/shelbykohring/)
@@ -21,4 +21,4 @@
 * (JavaScript coming soon)
 
 ### See deployed application:
-[Visit "Kohr Development" here](https://kohringsw.github.io/kohr-development/)
+[Visit the "Kohr Development" application here](https://kohringsw.github.io/kohr-development/)
