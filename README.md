@@ -15,10 +15,10 @@
   * (LinkedIn access coming soon)
   * (link to Shelby's resume coming soon)
 
-### This Application powered by:
+### This Application (and his other work) is powered by:
 * HTML
 * CSS (Bootstrap)
-* (JavaScript coming soon)
+* JavaScript (jQuery, jQueryUI, Moment.js)
 
 ### See deployed application:
 [Visit the "Kohr Development" application here](https://kohringsw.github.io/kohr-development/)
