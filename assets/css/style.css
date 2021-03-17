@@ -144,7 +144,7 @@ header nav ul li a {
 .button {
     background-color: var(--first-color);
     font-weight: normal;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .contacts {
@@ -186,7 +186,7 @@ header nav ul li a {
     }
 
     .button {
-        font-size: 10px;
+        font-size: 18px;
     }
 
     .references div { 
@@ -251,7 +251,7 @@ header nav ul li a {
 
     .button {
         font-weight: normal;
-        font-size: 8px;
+        font-size: 17px;
     }
 
     .references div { 
@@ -351,7 +351,7 @@ header nav ul li a {
 
     .button {
         font-weight: normal;
-        font-size: 6px;
+        font-size: 16px;
     }
 
     .references div { 
