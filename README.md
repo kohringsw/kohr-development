@@ -21,4 +21,4 @@
 * Express.js
 
 ### See deployed application:
-[Kohr Design: shelbykohring.com](www.shelbykohring.com)
+[Kohr Design: shelbykohring.com](https://www.shelbykohring.com)
