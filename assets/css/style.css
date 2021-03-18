@@ -32,8 +32,8 @@ header {
 }
 
 header h1 a:hover {
-    text-decoration: none;
-    color: var(--second-color);
+  text-decoration: none;
+  color: var(--second-color);
 }
 
 header h1 {
@@ -118,7 +118,7 @@ header nav ul li a:hover {
 .about-me h3 {
   height: 100px;
   width: 100px;
-  font-size: 28px;
+  font-size: 24px;
   text-align: right;
   margin: 60px 12px 0 50px;
 }
@@ -132,9 +132,9 @@ header nav ul li a:hover {
   border-left: 1px solid var(--first-color);
 }
 
-.my-work h3 {
+.projects h3 {
   margin: 40px 12px 0 50px;
-  font-size: 28px;
+  font-size: 24px;
   text-align: right;
   width: 100px;
   height: 100px;
@@ -142,7 +142,7 @@ header nav ul li a:hover {
 
 .container {
   flex-grow: 1;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 25px;
   margin: 40px 10px 20px 10px;
   border-left: 1px solid var(--first-color);
 }
@@ -151,10 +151,18 @@ header nav ul li a:hover {
   border: 5px solid var(--first-color);
 }
 
+.img:hover {
+  opacity: 70%;
+}
+
 .button {
   background-color: var(--first-color);
   font-weight: normal;
   font-size: 20px;
+}
+
+.button:hover {
+  opacity: 70%;
 }
 
 .contacts {
@@ -167,6 +175,13 @@ header nav ul li a:hover {
   min-height: 3rem;
   display: flex;
   align-items: flex-end;
+}
+
+/* MEDIA QUERY FOR 1120PX SCREENS AND SMALLER */
+@media screen and (max-width: 1120px) {
+    header nav ul li a {
+        font-size: 16px;
+    }
 }
 
 /* MEDIA QUERY FOR 980PX SCREENS AND SMALLER */
@@ -192,6 +207,8 @@ header nav ul li a:hover {
 
   header nav ul li a {
     margin: 0;
+    font-size: 16px;
+    padding: 0 20px;
   }
 
   .button {
@@ -225,7 +242,7 @@ header nav ul li a:hover {
   }
 
   .hero-subtitle {
-    margin: 150px 200px 0 0;
+    margin: 150px 325px 0 100px;
   }
 
   .about-me {
@@ -233,7 +250,7 @@ header nav ul li a:hover {
   }
 
   .about-me h3,
-  .my-work h3 {
+  .projects h3 {
     width: 80%;
     height: 20px;
     font-size: 36px;
@@ -297,13 +314,22 @@ header nav ul li a:hover {
   }
 
   header nav {
-    margin-bottom: -10px;
+    margin-bottom: -30px;
+  }
+
+  header nav ul {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
   }
 
   header nav ul li a {
-    margin: 0;
-    padding: 15px;
-    font-size: 14px;
+    padding: 10 40 10 40px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
   }
 
   .header-box {
@@ -321,7 +347,7 @@ header nav ul li a:hover {
   }
 
   .hero-subtitle {
-    margin: 75px 125px 0 0;
+    margin: 30px 225px 0 30px;
   }
 
   .hero-subtitle h2 {
@@ -329,10 +355,11 @@ header nav ul li a:hover {
   }
 
   .hero-subtitle h3 {
-    font-size: 16px;
+    font-size: 18px;
+    margin-top: -3px;
   }
 
-  .about-me h3 {
+  .about-me h3, .projects h3 {
     width: 80%;
     height: 20px;
     font-size: 36px;
@@ -360,7 +387,7 @@ header nav ul li a:hover {
 
   .button {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .references div {
