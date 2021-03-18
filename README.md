@@ -1,6 +1,6 @@
-![Kohr Design](assets/images/portfolio-screenshot.png)
+![Kohr Design](assets/images/kohr-design-screenshot.png)
 
-## Kohr Design: Shelby Kohring's Professional Portfolio
+## Shelby Kohring's Professional Portfolio
 
 ### Learn and See the Following:
 * Learn about who Shelby is and why design and development
